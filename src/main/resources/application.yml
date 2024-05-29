@@ -1,0 +1,12 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: couchbase_ericsson
+app:
+  couchbase:
+    connection-string: couchbase://127.0.0.1
+    user-name: emp
+    password: Test@123
+    bucket-primary: employee
+    bucket-user: user
